@@ -50,3 +50,4 @@ p{
     width: 300px;
 }
 ```
+![image](https://github.com/milad6745/CSS/assets/113288076/9a8e4f39-1871-4175-9795-e6b15a3dd6c2)
