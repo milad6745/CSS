@@ -22,3 +22,31 @@
 - `href="styles.css"`: این ویژگی مسیر (URL) به فایل CSS خارجی را مشخص می‌کند. شما باید مسیر فایل CSS خود را در اینجا قرار دهید.
 
 با افزودن این پیوند (`link`) به صفحه HTML، محتوای فایل CSS خارجی (`styles.css` در مثال بالا) در صفحه HTML شما اعمال می‌شود و می‌توانید از کلاس‌ها و تعریف‌های استایل موجود در آن استفاده کنید تا ظاهر صفحه HTML خود را سفارشی کنید.
+
+
+## Example
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+       <!-- لینک کردهhtmlدر اینجا فایل استایل رو به  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<p> Random number generation is a process by which, often by means of a random number generator, a sequence of numbers or symbols that cannot be reasonably predicted better than by random chance is generated.</p>
+</body>
+
+</html>
+```
+در اینجا مشخصات فایل اعم از اندازه رنگ پیکسی و .. را گفته که به فایل اصلی مان لینک شده است .
+```css
+p{
+    text-align: center;
+    font-size: 20px;
+    color: blue;
+    background-color: lightgray;
+    padding: 20px;
+    width: 300px;
+}
+```
