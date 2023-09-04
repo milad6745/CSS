@@ -74,15 +74,6 @@ CSS:
 ```
 style.css
 ```css
-p{
-    text-align: center;
-    font-size: 20px;
-    color: blue;
-    background-color: lightgray;
-    padding: 20px;
-    width: 300px;
-}
-
 #id1{
     text-align: center;
     font-size: 20px;
