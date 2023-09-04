@@ -51,3 +51,55 @@ CSS:
 در این مثال، ما از کلاس `.my-element` برای اعمال استایل به تمام عناصر با این کلاس استفاده کرده‌ایم. این امکان را فراهم می‌کند که چندین عنصر با ویژگی‌های یکسان را به صورت متمایز از یکدیگر در CSS استایل دهیم.
 
 به طور کلی، استفاده از کلاس‌ها برای CSS بهتر است و از ID باید تنها در صورتی استفاده کرد که می‌خواهید به صورت منحصر به فرد به یک عنصر مشخص دسترسی پیدا کنید و از آن در جاهای دیگر در صفحه استفاده نشود.
+
+
+## Example ID and class
+```html
+<!DOCTYPE html>
+<html>
+<head>
+       <!-- لینک کردهhtmlدر اینجا فایل استایل رو به  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<p class="class1"> Random number generation is a process by which, often by means of a random number generator, a sequence of numbers or symbols that cannot be reasonably
+     predicted better than by random chance is generated.</p>
+
+<p id="id1">
+    Random number generation is a process by which, often by means of a random number generator, a sequence of numbers or symbols that cannot be reasonably
+     predicted better than by random chance is generated.
+</p>    
+</body>
+</html>
+```
+style.css
+```css
+p{
+    text-align: center;
+    font-size: 20px;
+    color: blue;
+    background-color: lightgray;
+    padding: 20px;
+    width: 300px;
+}
+
+#id1{
+    text-align: center;
+    font-size: 20px;
+    color: red;
+    background-color: lightgray;
+    padding: 20px;
+    width: 300px;
+
+}
+
+.class1{
+
+text-align: center;
+font-size: 20px;
+color: green;
+background-color: lightgray;
+padding: 20px;
+width: 300px;
+}
+```
