@@ -6,6 +6,7 @@ HTML:
 ```html
 <div class="my-element">متن عنصر</div>
 <div class="my-element">متن عنصر دیگر</div>
+<div class="my-element1">متن عنصر دیگر</div>
 ```
 
 CSS:
@@ -14,6 +15,12 @@ CSS:
     color: blue;
     font-size: 16px;
     border: 1px solid #000;
+    /* سایر ویژگی‌های استایل */
+}
+.my-element1 {
+    color: red;
+    font-size: 26px;
+    border: 1px solid #fff;
     /* سایر ویژگی‌های استایل */
 }
 ```
