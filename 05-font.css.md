@@ -43,7 +43,7 @@
 
 
 ```css
-/* فونت فیس به نام ابران نستعلیق تعریف میکنیم */
+/* font face create by name irannastaliq */
 @font-face{
     font-family: "IranNastaliq";
     src: url(font/IranNastaliq.ttf)
