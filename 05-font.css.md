@@ -44,6 +44,7 @@
 
 ```css
 /* font face create by name irannastaliq */
+/* و مسیرش را هم با یو آر ال میدهیم*/
 @font-face{
     font-family: "IranNastaliq";
     src: url(font/IranNastaliq.ttf)
