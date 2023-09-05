@@ -5,7 +5,7 @@
 مثال:
 
 ```css
-/* والد */
+/* father */
 body {
   font-family: Arial, sans-serif;
   color: #333;
