@@ -9,7 +9,19 @@
 4. در پنجره باز شده، برای هر فونت که می‌خواهید استفاده کنید، یک کد لینک مشابه به زیر برایتان نمایش داده می‌شود. برای مثال:
 
 ```html
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.cdnfonts.com/css/persian" rel="stylesheet">
+</head>
+<body>
+<p id="id1"> تست فونت فارسی </p>
+</body>
+
+</html>
+
 ```
 
 5. شما می‌توانید این کد لینک را به قسمت `<head>` اسناد HTML خود اضافه کنید.
@@ -17,9 +29,10 @@
 6. حالا می‌توانید از این فونت در قوانین CSS خود استفاده کنید. برای مثال:
 
 ```css
-body {
-  font-family: 'Open Sans', sans-serif;
+.id1{
+    font-family: 'Persian', sans-serif;
 }
+
 ```
 
 در این مثال، ما از فونت "Open Sans" که با استفاده از لینک فراهم شده است، در المان `body` استفاده کردیم. اگر مرورگر اجازه داشته باشد، از فونت "Open Sans" استفاده می‌شود و در غیر این صورت، از یک فونت پیش‌فرض sans-serif استفاده می‌شود.
