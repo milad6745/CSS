@@ -41,30 +41,31 @@
 
  در CSS خود، از `@font-face` برای تعریف فونت استفاده کنید. به عنوان مثال:
 
-```css
-@font-face {
-  font-family: 'MyCustomFont'; /* نام فونت */
-  src: url('path-to-your-font-file.ttf') format('truetype'); /* مسیر فایل فونت و فرمت */
-  /* اختیاری: می‌توانید ویژگی‌های دیگری مثل weight و style را نیز تعیین کنید */
-  font-weight: normal;
-  font-style: normal;
-}
-```
-
-در این مثال، ما `@font-face` را برای تعریف یک فونت سفارشی با نام "MyCustomFont" استفاده کرده‌ایم. مسیر فایل فونت را در ویژگی `src` تعیین کرده‌ایم. همچنین می‌توانید ویژگی‌های دیگری مانند وزن (font-weight) و استیل (font-style) را نیز تنظیم کنید.
-
- حالا که فونت به صورت `@font-face` تعریف شده است، می‌توانید از آن در قوانین CSS خود استفاده کنید. به عنوان مثال:
 
 ```css
-body {
-  font-family: 'MyCustomFont', sans-serif;
+/* فونت فیس به نام ابران نستعلیق تعریف میکنیم */
+@font-face{
+    font-family: "IranNastaliq";
+    src: url(font/IranNastaliq.ttf)
 }
+
+/* در اینجا در قسمت پاراگذاف فونت مربوطه را صدا میزنیم */
+p{
+    font-family: "IranNastaliq";
+}
+
 ```
 
-در این مثال، متن درون المان `body` با فونت سفارشی "MyCustomFont" نمایش داده می‌شود و در صورتی که این فونت در دسترس نباشد، از فونت پیش‌فرض sans-serif استفاده می‌شود.
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.cdnfonts.com/css/persian" rel="stylesheet">
+</head>
+<body>
+<p> تست فونت فارسی </p>
+</body>
 
-با استفاده از `@font-face`، شما می‌توانید فونت‌های سفارشی خود را به وبسایت‌های خود اضافه کنید و از آنها به صورت شخصی‌تر در طراحی‌های وب خود استفاده کنید.
-
-
-
-
+</html>
+```
