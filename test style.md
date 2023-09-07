@@ -59,14 +59,20 @@
     ```
     text-transform: uppercase;
     ```
+حروف اول بزرگ باشد
+    ```
+    text-transform: capitalize;
+    ```
+    ![image](https://github.com/milad6745/CSS/assets/113288076/44bef223-ffdd-4051-af52-94c22831f318)
 
-11. **white-space**:
+
+12. **white-space**:
      این ویژگی برای مدیریت فضاها و کاراکترهای خالی درون متن استفاده می‌شود، مثلا:
     ```
     white-space: nowrap;
     ```
 
-12. **text-shadow**:
+13. **text-shadow**:
      این ویژگی برای اعمال سایه به متن استفاده می‌شود، مثلا:
     ```
 
