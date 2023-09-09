@@ -9,7 +9,7 @@
 مثال:
 
 ```css
-/* link style */
+/* link style*/
 a {
     color: #3498db; /* تغییر رنگ لینک به آبی */
     text-decoration: none; /* حذف خط زیر متن لینک */
