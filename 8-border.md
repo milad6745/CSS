@@ -29,6 +29,7 @@
     border-style: dashed;
         /* بعد از اینکه ماکس طولی بوردر پر شد اسکرول بده */
     overflow-y: scroll;
+
 }
 ```
 ![image](https://github.com/milad6745/CSS/assets/113288076/196629b1-9e69-4dfb-b6a5-e699853d94bc)
