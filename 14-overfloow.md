@@ -24,11 +24,16 @@ CSS:
 
 ```css
 .box {
-  width: 200px;
-  height: 200px;
-  border: 1px solid #ccc;
-  overflow: auto;
-}
+    width: 100px;
+    height: 100px;
+    border: 1px solid #ccc;
+    overflow: auto;
+    background-color: blue;
+  }
+  
 ```
 
 در این مثال، ما یک مربع با کلاس `.box` داریم که یک متن طولانی داخل آن قرار دارد. با تنظیم `overflow: auto;`، اگر متن بیرون از مربع محدوده برود، نوارهای کشویی عمودی و افقی نمایش داده می‌شوند تا کاربر بتواند محتوا را با استفاده از این نوارها مشاهده کند.
+
+![image](https://github.com/milad6745/CSS/assets/113288076/bc5d6f34-bf9b-48f4-84db-514566c3cc8e)
+
