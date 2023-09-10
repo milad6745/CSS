@@ -70,7 +70,22 @@ p{
 در این حالت به موردی که شناور تعریف شده واکنس نشان میدهد
 ![image](https://github.com/milad6745/CSS/assets/113288076/798c8e3e-e1b9-4d30-9c21-d69f9bed531f)
 
- clear:both;
+```css
+#id1{
+    width: 5cm;
+    height: 5cm;
+    background-color: blue;
+    float: right;
+
+}
+
+p{
+    font-size:larger;
+    clear:both;
+}
+```
+
 در این حالت بعد از شناور اومده و پاراگراف را ایجاد کرده است
 
 ![image](https://github.com/milad6745/CSS/assets/113288076/8e75f621-4af5-433b-bd3a-626cb9e63309)
+
