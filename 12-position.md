@@ -24,8 +24,11 @@
 
 .box {
   position: absolute;
+  از بالا 50 پیکسل فاصله بده
   top: 50px;
+از سمت چپ 50 پیکسل فاصله بده
   left: 50px;
+اندازه باکس
   width: 100px;
   height: 100px;
   background-color: #00aaff;
