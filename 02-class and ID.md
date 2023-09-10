@@ -96,3 +96,4 @@ width: 300px;
 }
 ```
 ![image](https://github.com/milad6745/CSS/assets/113288076/2d48d891-0d02-4a5f-b6bf-cfe529c58f31)
+
