@@ -53,7 +53,7 @@ CSS:
 </body>
 </html>
 ```
-```
+```css
 #id1{
     width: 5cm;
     height: 5cm;
