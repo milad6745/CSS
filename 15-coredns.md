@@ -22,3 +22,47 @@ clusterDNS:
 clusterDomain: cluster.local
 ...
 ```
+# Sample DNS Name
+![image](https://github.com/milad6745/CSS/assets/113288076/ab3b90ec-a044-4b98-8d00-de71359a23c1)
+
+
+# Example
+
+ ایجاد یک پاد در یک namespace و سپس تست DNS آن است.
+
+**گام‌ها:**
+
+1. **ساخت یک پاد:**
+   از دستور `kubectl run` برای ایجاد یک پاد ساده با نام "test-pod" استفاده کنید:
+
+   ```bash
+   kubectl run -i --tty --rm test-pod --image=busybox --restart=Never --namespace=my-namespace
+   ```
+
+   این دستور یک پاد تعاملی ایجاد می‌کند که از تصویر `busybox` استفاده می‌کند.
+
+2. **تست DNS:**
+   حالا در پنجره تعاملی پاد، از دستور `nslookup` برای تست DNS استفاده کنید:
+
+   ```bash
+   nslookup kubernetes.default
+   ```
+
+   این دستور آدرس IP سرویس DNS پیشفرض کوبرنتیز را برمی‌گرداند.
+
+   سپس می‌توانید همین کار را برای دیگر موارد نیز امتحان کنید، مانند:
+
+   ```bash
+   nslookup google.com
+   ```
+
+   این دستور آدرس IP مربوط به دامنه "google.com" را نشان می‌دهد.
+
+3. **خروج از پاد:**
+   برای خروج از پاد، می‌توانید از دستور `exit` استفاده کنید.
+
+   ```bash
+   exit
+   ```
+
+   این دستور پاد را بسته و از پردازه‌ی تعاملی خارج می‌شود.
